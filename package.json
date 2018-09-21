@@ -1,0 +1,23 @@
+{
+  "name": "skype-robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "robotjs": "^0.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zfdev/skype-robot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zfdev/skype-robot/issues"
+  },
+  "homepage": "https://github.com/zfdev/skype-robot#readme"
+}

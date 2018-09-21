@@ -9,8 +9,10 @@ var screenSize = robot.getScreenSize();
 var height = (screenSize.height / 2) - 10;
 var width = screenSize.width;
 
-for (var x = 0; x < width; x++)
-{
-	y = height * Math.sin((twoPI * x) / width) + height;
-	robot.moveMouse(x, y);
+var doMoveMouse = function() {
+    for (var x = 0; x < width; x++) {
+        y = height * Math.sin((twoPI * x) / width) + height;
+        robot.moveMouse(x, y);
+    }
 }
+var loopAction = setInterval(doMoveMouse, 10000);

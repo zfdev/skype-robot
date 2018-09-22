@@ -1,0 +1,25 @@
+[{
+        "taskName": "GoToWork",
+        "time": "0 0 9 * * *",
+        "action": "online",
+        "schedule": null
+    },
+    {
+        "taskName": "NoonRest",
+        "time": "0 0 12 * * *",
+        "action": "away",
+        "schedule": null
+    },
+    {
+        "taskName": "AfternoonWork",
+        "time": "0 0 13 * * *",
+        "action": "online",
+        "schedule": null
+    },
+    {
+        "taskName": "GetOffWork",
+        "time": "0 0 18 * * *",
+        "action": "away",
+        "schedule": null
+    }
+]

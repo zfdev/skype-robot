@@ -1,0 +1,16 @@
+{
+    "fullScreenshotUrl": "./screenshot/fullScreenshot.png",
+    "targetUrl": "./screenshot/target.png",
+    "statusPositionOffset": {
+        "x": 88,
+        "y": 85
+    },
+    "statusAvailablePositionOffset": {
+        "x": 0,
+        "y": 20
+    },
+    "statusAwayPositionOffset": {
+        "x": 0,
+        "y": 150
+    }
+}

@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "jimp": "^0.5.0",
+    "screenshot-desktop": "^1.5.2"
+  },
   "devDependencies": {
     "robotjs": "^0.5.1"
   },
